@@ -1,0 +1,64 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>p1_exercicio2</title>
+</head>
+
+<body>
+<?php 
+$a = 6*(3+2);
+$e = 3+(20-2)/(2*(9-6));
+$i = ((10*8+3)*9);
+$b = 2+(6*(3+2));
+$f = (6/3)+(8/2);
+$j = (-12*-4)+(3*-4);
+$c = 2+(3*6)/(2+4);
+$g = ((3+(8/2))*4)+3*2;
+$d = 2*8/(3+1);
+$h = 6*(3*3)+6-10;
+?>
+<p> Resultado de A: <?php echo $a;?> </p>
+<p> Resultado de E: <?php echo $e;?> </p>
+<p> Resultado de I: <?php echo $i;?> </p>
+<p> Resultado de B: <?php echo $b;?> </p>
+<p> Resultado de F: <?php echo $f;?> </p>
+<p> Resultado de J: <?php echo $j;?> </p>
+<p> Resultado de C: <?php echo $c;?> </p>
+<p> Resultado de G: <?php echo $g;?> </p>
+<p> Resultado de D: <?php echo $d;?> </p>
+<p> Resultado de H: <?php echo $h;?> </p>
+<br />
+<BR />
+<P> </P>
+<P>----</P>
+<P> RESULTADO ORIGINAL COM  () </P>
+<?PHP
+$z = 6*(3+2);
+$x = 3+(20-2)/(2*(9-6));
+$w = (((10*8)+3)*9);
+$y = 2+(6*(3+2));
+$m = (6/3)+(8/2);
+$n = ((-12)*(-4))+(3*(-4));
+$o = 2+(3*6)/(2+4);
+$p = ((3+(8/2))*4)+(3*2);
+$q = 2*(8/(3+1));
+$r = (6*(3*3)+6)-10;
+?>
+<p> Resultado de A: <?php echo $z;?> </p>
+<p> Resultado de E: <?php echo $x;?> </p>
+<p> Resultado de I: <?php echo $w;?> </p>
+<p> Resultado de B: <?php echo $y;?> </p>
+<p> Resultado de F: <?php echo $m;?> </p>
+<p> Resultado de J: <?php echo $n;?> </p>
+<p> Resultado de C: <?php echo $o;?> </p>
+<p> Resultado de G: <?php echo $p;?> </p>
+<p> Resultado de D: <?php echo $q;?> </p>
+<p> Resultado de H: <?php echo $r;?> </p>
+<?php
+ 
+?>
+
+</body>
+</html>
