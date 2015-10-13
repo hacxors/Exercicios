@@ -1,0 +1,33 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>p1_exercicio1</title>
+</head>
+
+<body>
+<?php 
+$a = 3+4*5;
+$e = 1+12/((7+2)/3)+(6-2);
+$i = sqrt (9)+ sqrt(16);
+$b = 8/4+2*3;
+$f = 3+16/2+5;
+$j = 21 / 4 / 2;
+$c = 2*(10-3*3)-1;
+$g = 24 / 4-2;
+$d = 5*(3+(2+3))/2+1;
+$h = 11 % 4+9 / 3;
+?>
+<p> Resultado de A: <?php echo $a;?> </p>
+<p> Resultado de E: <?php echo $e;?> </p>
+<p> Resultado de I: <?php echo $i;?> </p>
+<p> Resultado de B: <?php echo $b;?> </p>
+<p> Resultado de F: <?php echo $f;?> </p>
+<p> Resultado de J: <?php echo $j;?> </p>
+<p> Resultado de C: <?php echo $c;?> </p>
+<p> Resultado de G: <?php echo $g;?> </p>
+<p> Resultado de D: <?php echo $d;?> </p>
+<p> Resultado de H: <?php echo $h;?> </p>
+</body>
+</html>
